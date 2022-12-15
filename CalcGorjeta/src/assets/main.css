@@ -1,0 +1,78 @@
+body{
+  background-color: deepskyblue;
+}
+main {
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  border: solid darkcyan;
+  border-radius: 10px;
+}
+
+.calculadora {
+  text-align: center;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  font-weight: 500;
+  color: white;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+
+}
+
+.estrela{
+  color: goldenrod;
+}
+
+input,
+select {
+  color: lightslategray;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.calculadora {
+  padding: 10px;
+
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  width: 250px;
+  height: 25px;
+  font-size: 18px;
+  border: 2px darkcyan solid;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+button {
+  background-color: deepskyblue;
+  color: white;
+  height: 50px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.resultado{
+  margin: 10px;
+  border: solid darkcyan;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+
